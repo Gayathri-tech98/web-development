@@ -1,0 +1,37 @@
+
+*{
+    box-sizing:border-box;
+}
+.nav li{
+    display:inline-block;
+}
+.nav li a{
+    color:white;
+    margin:20px;
+    padding:20px;
+}
+.gadget{
+    list-style-type:none;
+}
+.gadget li{
+    display:inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+.fashion{
+    list-style-type:none;
+}
+.fashion li{
+    display:inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+/*responsive css*/
+@media only screen and (max-width:767px){
+    nav{
+        position:fixed;
+    }
+    .nav li{
+        display:block;
+    }
+}
