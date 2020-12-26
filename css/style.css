@@ -1,31 +1,62 @@
 
 *{
     box-sizing:border-box;
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-family: verdana;
+}
+nav h2{
+    color:white;
 }
 .nav li{
     display:inline-block;
 }
 .nav li a{
     color:white;
-    margin:20px;
-    padding:20px;
+    margin:10px;
+    padding:10px;
 }
-.gadget{
-    list-style-type:none;
+.big-banner{
+    background-image: url('../images/background.jpg');
+    background-repeat: repeat-x;
 }
-.gadget li{
-    display:inline-block;
-    margin: 20px;
-    padding: 10px;
+.jumbotron{
+    color: white;
 }
-.fashion{
-    list-style-type:none;
+.about p{
+    position: relative;
+    top: -300px;
+    left: 520px;
 }
-.fashion li{
-    display:inline-block;
-    margin: 20px;
-    padding: 10px;
+.about ul{
+    position: relative;
+    top: -250px;
+    left: 520px;
 }
+.about ul{
+    list-style: none;
+}
+.one div{
+    border: 1px solid dodgerblue;
+    display: inline-block;
+    margin: 5px;
+}
+
+.list div{
+    border: 1px solid dodgerblue;
+    display: inline-block;
+    margin: 5px;
+}
+.project div{
+    border: 1px solid transparent;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+   
+}
+
 /*responsive css*/
 @media only screen and (max-width:767px){
     nav{
